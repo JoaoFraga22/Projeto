@@ -26,6 +26,6 @@ import {
     dataNascimento?: Date | string;
   
     @IsString()
-    @IsOptional()
+    @IsNotEmpty()
     email: string;
   }
